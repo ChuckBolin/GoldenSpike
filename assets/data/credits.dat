@@ -1,0 +1,87 @@
+//Scrolling credits at end of program
+//text 0 - 13
+//text, hor pos, font, red, green, blue, string
+//sprite, hor pos, sprite ID
+vspace
+vspace
+vspace
+vspace
+sprite, 200, 1009
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+sprite, 850, 48
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+text, -1, 12, 255, 255, 0, "The Golden Spike"
+vspace
+vspace
+
+vspace
+//sprite, 10, 3
+vspace
+vspace
+sprite, 900, 5
+text, -1, 12, 255, 255, 255, "Created by Chuck Bolin"
+text, -1, 12, 255, 255, 255, "May 16th 2009"
+vspace
+vspace
+vspace
+text, -1, 12, 0, 180, 0, Game Challenge GC 11
+text, -1, 12, 0, 160, 0, www.gameinstitute.com
+vspace
+vspace
+vspace
+text, -1, 12, 255, 255, 255, Textures Provided
+text, -1, 12, 255, 255, 255, by
+vspace
+text, -1, 12, 255, 255, 255, www.bittbox.com freebies free-hi-resolution-wood-textures
+text, -1, 12, 255, 255, 255, www.flickr.com photos 8078381@N03 3393947827
+vspace
+vspace
+text, -1, 12, 255, 255, 255, 3D Old Railway Art Provided
+text, -1, 12, 255, 255, 255, by
+text, -1, 12, 255, 255, 255, Flyman @ GI
+vspace
+vspace
+vspace
+text, -1, 12, 255, 255, 255, Music
+text, -1, 12, 255, 255, 255, www.rossnickerson.com
+vspace
+vspace
+sprite, 10, 3
+vspace
+vspace
+vspace
+text, -1, 12, 255, 255, 255, Sound Effects and Voices
+text, -1, 12, 255, 255, 255, Sam Joe Chuck
+vspace
+vspace
+vspace
+vspace
+text, -1, 12, 190, 20, 10, Special thanks to my wife grace
+text, -1, 12, 190, 20, 10, for allowing me the time to program!
+vspace
+vspace
+sprite, 650, 6
+vspace
+vspace
+
+
+
+scrollspeed, 4
+scrolltime, 0.025
+backcolor, 0, 0, 0 //30, 113, 155
+timer, 30
+
+
+

@@ -1,0 +1,233 @@
+texture, 0, landscape.png, landscape textures
+texture, 1, water1.png, water 1
+texture, 2, parchment.png, parchment map
+texture, 3, news2.png, notice
+texture, 4, clouds.png, clouds
+texture, 5, hills.png, hills
+texture, 7, profiles.png, profiles
+texture, 8, interfacenew.png, GUI
+texture, 9, tracks.png, tracks - straight pieces
+texture, 11, tracks2.png, tracks - curves
+texture, 12, water2.png, water 2
+texture, 14, menu.png, menu choices
+texture, 15, menu2.png, background
+texture, 16, help1.png, help1
+texture, 17, help3.png, help3
+texture, 18, help4.png, help4
+texture, 19, help5.png, help5
+
+
+//terrain
+//sprite, 0, 1, 0, 0, 1024, 1024, 1, 0, 255, 1, 1, 0, green field 1024x1024
+sprite, 1, 0, 0, 0, 256, 256, 1, 0, 255, 1, 1, 0, dirt256x256
+sprite, 2, 0, 256, 0, 256, 256, 1, 0, 255, 1, 1, 0, grass256x256
+
+//clouds
+sprite, 3, 4, 7, 7, 210, 259, 1, 0, 255, 1, 1,  0, cloud
+sprite, 4, 4, 281, 3, 289, 337, 1, 0, 255, 1, 1,  0, cloud
+sprite, 5, 4, 617, 35, 329, 241, 1, 0, 255, 1, 1,  0, cloud
+sprite, 6, 4, 13, 368, 450, 349, 1, 0, 255, 1, 1,  0, cloud
+
+
+//hills, trees
+sprite, 30, 5, 0, 0, 496, 496, 1, 0, 255, 1, 1, 0, hill
+sprite, 31, 5, 499, 0, 496, 496, 1, 0, 255, 1, 1, 0, hill
+sprite, 32, 5, 0, 499, 496, 496, 1, 0, 255, 1, 1, 0, hill
+sprite, 33, 5, 499, 499, 496, 496, 1, 0, 255, 1, 1, 0, hill
+
+//misc
+//sprite, 10, 3, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, effects
+//sprite, 11, 10, 341, 81, 376, 376, 1, 0, 255, 1, 1, 0, effects sm circle
+
+//game play gui
+
+sprite, 36, 8, 7, 670, 498, 92, 1, 0, 255, 1, 1, 0, 6 profile icons
+sprite, 37, 8, 470, 550, 100, 50, 1, 0, 255, 1, 1, 0, map off
+sprite, 38, 8, 470, 603, 100, 50, 1, 0, 255, 1, 1, 0, map on
+sprite, 39, 8, 5, 185, 457, 258, 1, 0, 255, 1, 1, 0, large map
+sprite, 40, 8, 6, 130, 665, 52, 1, 0, 255, 1, 1, 0, gray texture
+sprite, 7, 8, 468, 328, 63, 72, 1, 0, 255, 1, 1, 0, save icon
+sprite, 8, 8, 537, 328, 63, 71, 1, 0, 255, 1, 1, 0, undo icon 
+sprite, 9, 8, 674, 362, 7, 7, 1, 0, 255, 1, 1, 0, map red dot
+sprite, 12, 8, 682, 362, 7, 7, 1, 0, 255, 1, 1, 0, map green dot
+sprite, 13, 8, 469, 420, 297, 111, 1, 0, 255, 1, 1, 0, paused
+
+
+sprite, 42, 8, 235, 98, 84, 59, 1, 0, 255, 1, 1, 0, small map
+sprite, 43, 8, 466, 186, 190, 136, 1, 0, 255, 1, 1, 0, calendar
+sprite, 44, 8, 9, 447, 113, 156, 1, 0, 255, 1, 1, 0, watch
+sprite, 45, 8, 131, 452, 62, 62, 1, 0, 255, 1, 1, 0, watch dial
+sprite, 46, 8, 666, 362, 7, 7, 1, 0, 255, 1, 1, 0, map dot blue
+sprite, 47, 8, 144, 520, 35, 63, 1, 0, 255, 1, 1, 0, lantern off
+sprite, 48, 8, 179, 520, 35, 63, 1, 0, 255, 1, 1, 0, lantern on
+sprite, 49, 8, 613, 329, 21, 16, 1, 0, 255, 1, 1, 0, calendar mark
+
+//profiles and tracks
+sprite, 17, 7, 6, 7, 249, 249, 1, 0, 255, 1, 1, 0, top left curve
+sprite, 18, 7, 262, 7, 249, 249, 1, 0, 255, 1, 1, 0, top right curve
+sprite, 19, 7, 6, 264, 249, 249, 1, 0, 255, 1, 1, 0, bottom left curve
+sprite, 20, 7, 262, 264, 249, 249, 1, 0, 255, 1, 1, 0, bottom right curve
+sprite, 21, 7, 518, 7, 63, 63, 1, 0, 255, 1, 1, 0, small grid profile hor
+sprite, 22, 7, 516, 130, 63, 63, 1, 0, 255, 1, 1, 0, small grid profile vert
+sprite, 23, 7, 589, 7, 263, 263, 1, 0, 255, 1, 1, 0, blue large highlight
+sprite, 24, 7, 860, 7, 76, 76, 1, 0, 255, 1, 1, 0, blue small highlight
+
+//horizontal pieces of track
+sprite, 50, 9, 0, 0, 63, 63, 1, 0, 255, 1, 1, 0, hor ballast
+sprite, 51, 9, 63, 0, 63, 63, 1, 0, 255, 1, 1, 0, hor ballast + ties
+sprite, 52, 9, 127, 0, 63, 63, 1, 0, 255, 1, 1, 0, hor ballast + ties + rails
+
+//vertical pieces of track
+sprite, 53, 9, 190, 0, 63, 63, 1, 0, 255, 1, 1, 0, vert ballast
+sprite, 54, 9, 253, 0, 63, 63, 1, 0, 255, 1, 1, 0, vert ballast + ties
+sprite, 55, 9, 316, 1, 63, 63, 1, 0, 255, 1, 1, 0, vert ballast + ties + rails
+
+//curve top-right of quadrant I of circle
+sprite, 56, 11, 2, 0,  246, 246, 1, 0, 255, 1, 1, 0, ballast
+sprite, 57, 11, 250, 0, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties
+sprite, 58, 11, 496, 0, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties + rails
+
+//curve bottom-right of quadrant IV of circle
+sprite, 59, 11, 4, 250, 246, 246, 1, 0, 255, 1, 1, 0, ballast
+sprite, 60, 11, 254, 252, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties
+sprite, 61, 11, 500, 253, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties
+
+//curve top-left of quadrant II of circle
+sprite, 62, 11, 0, 500, 246, 246, 1, 0, 255, 1, 1, 0, ballast 
+sprite, 63, 11, 250, 499, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties
+sprite, 64, 11, 495, 496, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties + rails
+
+//curve bottom-left of quadrant III of circle
+sprite, 65, 11, 0, 753, 246, 246, 1, 0, 255, 1, 1, 0, ballast
+sprite, 66, 11, 248, 756, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties
+sprite, 67, 11, 495, 755, 246, 246, 1, 0, 255, 1, 1, 0, ballast + ties + rails
+
+//start and end sprites
+sprite, 68, 9, 0, 73, 441, 57, 1, 0, 255, 1, 1, 0, starting sprite
+sprite, 69, 9, 0, 142, 441, 57, 1, 0, 255, 1, 1, 0, ending sprite
+
+//zoom icons
+sprite, 70, 8, 252, 446, 202, 51, 1, 0, 255, 1, 1, 0, zoom 1
+sprite, 71, 8, 252, 501, 202, 51, 1, 0, 255, 1, 1, 0, zoom 2
+sprite, 72, 8, 252, 556, 202, 51, 1, 0, 255, 1, 1, 0, zoom 3
+sprite, 73, 8, 252, 611, 202, 51, 1, 0, 255, 1, 1, 0, zoom 4
+
+//water
+sprite, 80, 1, 0, 0, 248, 248, 1, 0, 255, 1, 1, 0, vert 1
+sprite, 81, 1, 252, 0, 248, 248, 1, 0, 255, 1, 1, 0, vert 2
+sprite, 82, 1, 5, 751, 248, 248, 1, 0, 255, 1, 1, 0, hor 1
+sprite, 83, 1, 256, 751, 248, 248, 1, 0, 255, 1, 1, 0, hor 2
+sprite, 84, 12, 500, -3, 248, 248, 1, 0, 255, 1, 1, 0, elbow top-left
+sprite, 85, 12, 228, 0, 248, 248, 1, 0, 255, 1, 1, 0, elbow top-right
+sprite, 86, 1, 503, 0, 248, 248, 1, 0, 255, 1, 1, 0, elbow bottom-left
+sprite, 87, 1, 509, 750, 248, 248, 1, 0, 255, 1, 1, 0, elbow bottom-right
+sprite, 88, 12, 9, 251, 744, 496, 1, 0, 255, 1, 1, 0, pond1
+sprite, 89, 1, 0, 248, 744, 496, 1, 0, 255, 1, 1, 0, pond2
+
+
+//sprite, 92, 8, 0, 22, 13, 12, 1, 0, 255, 1, 1, 0, calendar mark
+sprite, 93, 9, 387, 0, 63, 63, 1, 0, 255, 1, 1, 0, intersection rails
+sprite, 94, 9, 450, 0, 63, 63, 1, 0, 255, 1, 1, 0, intersection ballast
+sprite, 95, 9, 516,0, 63, 63, 1, 0, 255, 1, 1, 0, intersection ties
+
+sprite, 96, 0, 0, 257, 65, 65, 1,0, 255, 1, 1, 0, tree
+sprite, 100, 0, 102, 264, 167, 167, 1, 0, 255, 1, 1, 0, train engine
+sprite, 101, 0, 268, 264, 167, 167, 1, 0, 255, 1, 1, 0, train engine shadow
+sprite, 102, 8, 670, 373, 19, 19, 1, 0, 255, 1, 1, 0, waypoint
+
+sprite, 103, 8, 11, 612, 23, 22, 1, 0, 255, 1, 1, 0, x1
+sprite, 104, 8, 36, 612, 23, 22, 1, 0, 255, 1, 1, 0, x2
+sprite, 105, 8, 63, 612, 23, 22, 1, 0, 255, 1, 1, 0, x4
+sprite, 106, 8, 90, 612, 23, 22, 1, 0, 255, 1, 1, 0, x8
+sprite, 107, 8, 118, 612, 28, 22, 1, 0, 255, 1, 1, 0, x16
+
+sprite, 108, 8, 670, 326, 14, 14, 1, 0, 255, 1, 1, 0, mouse cursor
+sprite, 110, 7, 516, 201, 64, 64, 1, 0, 255, 1, 1, 0, red square mouse
+sprite, 111, 8, 593, 550, 100, 51, 1, 0, 255, 1, 1, 0, exit
+
+
+sprite, 112, 0, 516, 2, 240, 240, 1, 0, 255, 1, 1, 0, building 1
+sprite, 113, 0, 756, 2, 120, 120, 1, 0, 255, 1, 1, 0, building 2
+sprite, 114, 0, 878, 2, 120, 120, 1, 0, 255, 1, 1, 0, building 3
+
+sprite, 115, 2, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, map parchment
+
+//building shadows
+sprite, 116, 0, 516, 263, 240, 240, 1, 0, 255, 1, 1, 0, building 1
+sprite, 117, 0, 756, 263, 120, 120, 1, 0, 255, 1, 1, 0, building 2
+sprite, 118, 0, 878, 263, 120, 120, 1, 0, 255, 1, 1, 0, building 3
+
+sprite, 119, 8, 173, 596, 63, 72, 1, 0, 255, 1, 1, 0, check mark
+
+//gloves
+sprite, 120, 0, 2, 493, 75, 75, 1, 0, 255, 1, 1, 0, red glove
+sprite, 121, 0, 77, 493, 75, 75, 1, 0, 255, 1, 1, 0, blue glove
+sprite, 122, 0, 152, 493, 75, 75, 1, 0, 255, 1, 1, 0, white glove
+sprite, 123, 0, 227, 493, 75, 75, 1, 0, 255, 1, 1, 0, black glove
+
+//mouse pointing gloves
+sprite, 124, 0, 0, 588, 75, 75, 1, 0, 255, 1, 1, 0, glove left
+sprite, 125, 0, 75, 588, 75, 75, 1, 0, 255, 1, 1, 0, glove right
+sprite, 126, 0, 150, 588, 75, 75, 1, 0, 255, 1, 1, 0, glove up
+sprite, 127, 0, 225, 588, 75, 75, 1, 0, 255, 1, 1, 0, glove down
+
+//help
+sprite, 130, 16, 3, 702, 100, 48, 1, 0, 255, 1, 1, 0, previous
+sprite, 131, 16, 108, 702, 100, 48, 1, 0, 255, 1, 1, 0, next
+sprite, 132, 16, 5, 755, 100, 48, 1, 0, 255, 1, 1, 0, previous gray
+sprite, 133, 16, 109, 757, 100, 48, 1, 0, 255, 1, 1, 0, next gray
+sprite, 134, 16, 218, 701, 200, 50, 1, 0, 255, 1, 1, 0, main menu
+
+//help 1
+sprite, 135, 17, 8, 253, 485, 70, 1, 0, 255, 1, 1, 0, title
+sprite, 136, 17, 3, 620, 807, 401, 1, 0, 255, 1, 1, 0, opennarrative1
+
+//help 2
+sprite, 137, 16, 0, 0, 714, 693, 1, 0, 255, 1, 1, 0, map
+sprite, 138, 16, 720, 4, 177, 119, 1, 0, 255, 1, 1, 0, Pleasant valley
+sprite, 139, 16, 721, 137, 177, 126, 1, 0, 255, 1, 1, 0, Johnson City
+sprite, 140, 16, 921, 22, 73, 75, 1, 0, 255, 1, 1, 0, Red circle
+sprite, 141, 16, 918, 163, 81, 75, 1, 0, 255, 1, 1, 0, Blue circle
+sprite, 142, 16, 732, 401, 102, 102, 1, 0, 255, 1, 1, 0, red arrow
+sprite, 143, 16, 721, 281, 219, 48, 1, 0, 255, 1 ,1, 0, begin sample
+sprite, 144, 16, 722, 339, 227, 45, 1, 0, 255, 1, 1, 0, end sample
+sprite, 145, 17, 7, 336, 437, 165, 1, 0, 255, 1, 1, 0, lay track narr
+sprite, 146, 19, 6, 4, 353, 268, 1, 0, 255, 1, 1, 0, lay 1
+sprite, 147, 19, 673, 458, 203, 140, 1, 0, 255, 1, 1, 0, lay 2
+sprite, 148, 18, 418, 8, 389, 75, 1, 0, 255, 1, 1, 0, lanterns
+sprite, 149, 17, 558, 8, 440, 325, 1, 0, 255, 1, 1, 0, lantern narr
+sprite, 150, 19, 537, 10, 472, 385, 1, 0, 255, 1, 1, 0, track
+sprite, 151, 19, 10, 289, 476, 224, 1, 0, 255, 1, 1, 0, 4 sections
+sprite, 152, 17, 535, 378, 352, 163, 1, 0, 255, 1, 1, 0, 44 sections narr
+sprite, 153, 17, 0, 0, 309, 135, 1, 0, 255, 1, 1, 0, terrain types
+sprite, 154, 18, 10, 239, 309, 237, 1, 0, 255, 1, 1, 0, terrain
+sprite, 155, 19, 7, 540, 642, 417, 1, 0, 255, 1, 1, 0, pause
+sprite, 156, 19, 684, 821, 118, 153, 1, 0, 255, 1, 1, 0, watch
+
+sprite, 157, 18, 443, 130, 467, 636, 1, 0, 255, 1, 1, 0, mult controls
+sprite, 158, 18, 32, 93, 81, 84, 1, 0, 255, 1, 1, 0, check mark
+sprite, 159, 9, 7, 216, 495, 231, 1, 0, 255, 1, 1, 0, waypoints
+sprite, 160, 18, 11, 518, 422, 258, 1, 0, 255, 1, 1, 0, waypoint narr
+sprite, 161, 17, 318, 7, 237, 227, 1, 0, 255, 1, 1, 0, narr terrain times
+
+sprite, 162, 8, 592, 608, 46, 51, 1, 0, 255, 1, 1, 0, sound on
+sprite, 163, 8, 637, 608, 46, 51, 1, 0, 255, 1, 1, 0, music on
+sprite, 164, 8, 683, 608, 46, 51, 1, 0, 255, 1, 1, 0, sound off
+sprite, 165, 8, 728, 608, 46, 51, 1, 0, 255, 1, 1, 0, musicon
+
+sprite, 166, 18, 11, 805, 497, 82, 1, 0, 255, 1, 1, 0, music directions
+sprite, 167, 9, 70, 496, 828, 160, 1, 0, 255, 1, 1, 0, congrats
+sprite, 168, 9, 30, 686, 837, 152, 1, 0, 255, 1, 1, 0, game over
+
+sprite, 169, 3, 32, 42, 871, 455, 1, 0, 255, 1, 1, 0, notice
+ 
+
+sound, 0, ambient1.mp3, ambient sounds
+sound, 1, explode10.mp3, explosions
+sound, 2, foreman.mp3, forman
+sound, 3, nickerson.mp3, medley
+sound, 4, nickerson2.mp3, ill fly away
+sound, 5, vahn.mp3, orange blossom
+sound, 6, voices.mp3, voices
+sound, 7, water1.mp3, water
+

@@ -1,0 +1,15 @@
+texture, 101, title.png, title page
+texture, 103, menu2.png, background
+texture, 104, menu.png, choices
+
+//sprite, 1000, 100, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, Splash
+sprite, 1001, 101, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, title screen
+sprite, 1002, 104, 0, 817, 60, 60, 1, 0, 255, 1, 1, 0, mouse cursor
+sprite, 1003, 101, 124, 782, 720, 187, 1, 0, 255, 1, 1, 0, title
+sprite, 1004, 103, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, background
+sprite, 1005, 104, 4, 5, 349, 349, 1, 0, 255, 1, 1, 0, play choice
+sprite, 1006, 104, 358, 6, 349, 349, 1, 0, 255, 1, 1, 0, how to play
+sprite, 1007, 104, 358, 362, 349, 349, 1, 0, 255, 1, 1, 0, exit
+sprite, 1008, 104, 4, 362, 349, 349, 1, 0, 255, 1, 1, 0, outline
+sprite, 1009, 104, 796, 321, 185, 370, 1, 0, 255, 1, 1, 0, golden spike
+

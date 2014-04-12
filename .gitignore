@@ -1,0 +1,11 @@
+#standard .gitignore file
+
+debug/
+release/
+*.xls
+_UpgradeReport_Files
+text/
+
+
+
+
